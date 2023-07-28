@@ -241,3 +241,32 @@ input:focus{
         top: 104%;
     }
 }
+
+@media (max-width: 500px) {
+    .timer-container{
+        width: 90vw;
+    }
+
+    .timer-block{
+        width: 20vw;
+        height: 15vw;
+        border-radius: 20px;
+        border-bottom: 25px solid #fff;
+    }
+
+    .btn{
+        height: 50px;
+        width: 15vw;
+        margin-top: 40px;
+        font-size: 18px;
+    }
+
+    .time{
+        font-size: 35px;
+    }
+
+    .bottom-text{
+        font-size: 14px;
+        top: 104%;
+    }
+}
