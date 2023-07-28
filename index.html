@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="home">
+        <h1 class="title">Timer</h1>
+        <div class="timer-container">
+            <div class="timer-block"><input value="0" type="text" placeholder="0" class="time days" id="input"><div class="bottom-text">Days</div></div>
+            <div class="timer-block"><input value="0" type="text" placeholder="0" class="time hours"><div class="bottom-text">Hours</div></div>
+            <div class="timer-block"><input value="0" type="text" placeholder="0" class="time minutes"><div class="bottom-text">Minutes</div></div>
+            <div class="timer-block"><input value="0" type="text" placeholder="0" class="time seconds"><div class="bottom-text">Seconds</div></div>
+        </div>
+        <div class="buttons">
+            <button onclick="timer = setInterval(run, 1000)" class="btn" id="button">Start</button>
+            <button onclick="clearInterval(timer);" class="btn" id="button">Pause</button>
+            <button onclick="stop();" class="btn" id="button">Stop</button>
+        </div>
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
