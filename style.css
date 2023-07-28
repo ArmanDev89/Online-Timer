@@ -94,7 +94,7 @@ input:focus{
     display: inline-block;
     color: #fff;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 44px;
     height: 80px;
     width: 12vw;
     border-radius: 30px;
@@ -108,4 +108,136 @@ input:focus{
     color: rgb(139, 0, 255);
     background-color: #fff;
     box-shadow: 0 0 40px rgba(139, 0, 255, 1);
+}
+
+
+/*=======================================Adaptive Design=======================================*/
+
+@media (max-width: 1300px) {
+    .btn{
+        height: 65px;
+        width: 11vw;
+        margin-top: 65px;
+        font-size: 36px;
+    }
+
+    h1{
+        margin-bottom: 50px;
+        font-size: 80px;
+    }
+
+    .time{
+        font-size: 85px;
+    }
+
+    .bottom-text{
+        font-size: 25px;
+        top: 102%;
+    }
+}
+
+@media (max-width: 1156px) {
+    .btn{
+        height: 52px;
+        width: 10.5vw;
+        margin-top: 55px;
+        font-size: 26px;
+    }
+
+    h1{
+        font-size: 72px;
+    }
+
+    .time{
+        font-size: 72px;
+    }
+
+    .bottom-text{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .timer-block{
+        width: 17vw;
+        height: 13vw;
+        border-radius: 38px;
+        background-color: rgba(139, 0, 255, 0.19);
+        box-shadow: 0 0 17px rgba(0, 0, 0, 0.7);
+    
+        border-bottom: 45px solid #fff;
+    }
+
+    .btn{
+        border-radius: 22px;
+        height: 48px;
+        width: 10vw;
+        margin-top: 50px;
+        font-size: 24px;
+    }
+
+    h1{
+        font-size: 68px;
+        margin-bottom: 35px;
+    }
+
+    .time{
+        font-size: 64px;
+    }
+
+    .bottom-text{
+        font-size: 22px;
+        top: 103%;
+    }
+}
+
+@media (max-width: 870px) {
+    .timer-container{
+        width: 80vw;
+    }
+
+    .timer-block{
+        border-radius: 30px;
+        border-bottom: 35px solid #fff;
+    }
+
+    .btn{
+        height: 40px;
+        width: 9.5vw;
+        margin-top: 40px;
+        font-size: 19px;
+    }
+
+    .time{
+        font-size: 52px;
+    }
+
+    .bottom-text{
+        font-size: 18px;
+        top: 104%;
+    }
+}
+
+@media (max-width: 700px) {
+    .timer-block{
+        width: 18vw;
+        height: 14vw;
+        border-radius: 27px;
+    }
+
+    .btn{
+        height: 50px;
+        width: 15vw;
+        margin-top: 40px;
+        font-size: 22px;
+    }
+
+    .time{
+        font-size: 45px;
+    }
+
+    .bottom-text{
+        font-size: 18px;
+        top: 104%;
+    }
 }
