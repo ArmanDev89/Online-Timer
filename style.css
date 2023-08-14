@@ -15,7 +15,7 @@ body{
     outline: none;
     border: none;
     font-family: "Poppins", sans-serif;
-    background-image: url('img/bg.jpg') ;
+    background-color: #1f242d;
     background-size: cover;
     margin: 0;
     box-sizing: border-box;
@@ -53,10 +53,17 @@ h1{
     width: 16.5vw;
     height: 13.5vw;
     border-radius: 50px;
-    background-color: rgba(139, 0, 255, 0.19);
+    background-color: #323946;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
 
-    border-bottom: 50px solid #fff;
+    border-bottom: 50px solid #0ef;
+    
+    transition: 0.2s ease;
+}
+
+.timer-block:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
 
 .time{
@@ -81,7 +88,8 @@ input:focus{
     position: absolute;
     top: 100%;
     font-size: 30px;
-    color: rgba(139, 0, 255, 0.8);
+    color: #323946;
+    font-weight: 500;
 }
 
 .buttons{
@@ -92,22 +100,22 @@ input:focus{
 .btn{
     margin: 100px 2vw 0 0;
     display: inline-block;
-    color: #fff;
+    color: #323946;
     font-weight: 400;
     font-size: 44px;
     height: 80px;
     width: 12vw;
     border-radius: 30px;
-    background-color: rgb(139, 0, 255);
+    background-color: #0ef;
     box-shadow: none;
     border: none;
     transition: .3s ease;
 }
 
 .btn:hover{
-    color: rgb(139, 0, 255);
-    background-color: #fff;
-    box-shadow: 0 0 40px rgba(139, 0, 255, 1);
+    color: #0ef;
+    background-color: #323946;
+    box-shadow: 0 0 40px #0ef;
 }
 
 
@@ -162,10 +170,9 @@ input:focus{
         width: 17vw;
         height: 13vw;
         border-radius: 38px;
-        background-color: rgba(139, 0, 255, 0.19);
         box-shadow: 0 0 17px rgba(0, 0, 0, 0.7);
     
-        border-bottom: 45px solid #fff;
+        border-bottom: 45px solid #0ef;
     }
 
     .btn{
@@ -198,7 +205,7 @@ input:focus{
 
     .timer-block{
         border-radius: 30px;
-        border-bottom: 35px solid #fff;
+        border-bottom: 35px solid #0ef;
     }
 
     .btn{
@@ -251,7 +258,7 @@ input:focus{
         width: 20vw;
         height: 15vw;
         border-radius: 20px;
-        border-bottom: 25px solid #fff;
+        border-bottom: 25px solid #0ef;
     }
 
     .btn{
